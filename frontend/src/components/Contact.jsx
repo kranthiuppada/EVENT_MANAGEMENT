@@ -13,7 +13,7 @@ const Contact = () => {
 
     try {
       const res = await axios.post(
-        "https://event-management-1-f7lq.onrender.com/api/v1/message/send",  // Updated URL to match backend route
+        "https://event-management-mern-stack.onrender.com/api/v1/message/send",  // Updated URL to match backend route
         {
           name,
           email,
